@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jamier商城-产品详情页</title>
+    <meta name="description"
+        content="品优购JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
+    <meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,品优购" />
+    <!-- 引入favicon图标 -->
+    <link rel="shortcut icon" href="z.jpg.icon.ico">
+    <!-- 引入css 初始化的css 文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入公共样式的css 文件 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入详情页面的css文件 -->
+    <link rel="stylesheet" href="css/detail.css">
+    <!-- 引入JS文件 -->
+    <script src="js/detail.js"></script>
+</head>
+
+<body>
+    <!-- 快捷导航模块 start -->
+    <section class="shortcut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li>Jamier商城欢迎您！&nbsp;</li>
+                    <li>
+                        <a href="register.html">登录&nbsp;</a>
+                        <a href="register.html" class="style_red">免费注册</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="fr">
+                <ul>
+                    <li>我的订单</li>
+                    <li></li>
+                    <li class="arrow-icon">个人中心</li>
+                    <li></li>
+                    <li>Jamier会员</li>
+                    <li></li>
+                    <li>企业采购</li>
+                    <li></li>
+                    <li class="arrow-icon">关注Jamier</li>
+                    <li></li>
+                    <li class="arrow-icon">客户服务</li>
+                    <li></li>
+                    <li class="arrow-icon">网站导航</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- 快捷导航模块 end -->
+
+    <!-- header头部模块 start -->
+    <header class="header w">
+        <div class="logo">
+            <h1><a href="index.html" title="Jamier商城">Jamier商城</a></h1>
+        </div>
+        <div class="search">
+            <input type="search" name="" id="" placeholder="笔记本电脑">
+            <button>搜索</button>
+
+        </div>
+        <div class="hotwords">
+            <a href="#" class="style_red">大牌首发</a>
+            <a href="#">百亿补贴</a>
+            <a href="#">1元团购</a>
+            <a href="#">满99减98</a>
+            <a href="#">家用电器</a>
+            <a href="#">冬季女装</a>
+            <a href="#">电脑</a>
+            <a href="#">智能手机</a>
+        </div>
+        <div class="shopcar"><a href="shoppingcart.html">
+                我的购物车
+            </a><i class="count">4</i>
+        </div>
+    </header>
+    <!-- header头部模块 end -->
+    <!-- nav模块 start -->
+    <div class="nav">
+        <div class="w">
+            <div class="dropdown fl">
+                <div class="dt"> 全部商品分类 </div>
+                <div class="dd" style="display: none;">
+                    <ul>
+                        <li><a href="list.html">家用电器</a></li>
+                        <li><a href="list.html">手机、运营商、数码</a></li>
+                        <li><a href="list.html">电脑、办公</a></li>
+                        <li><a href="list.html">家居、家装、家具、厨具</a></li>
+                        <li><a href="list.html">男装、女装、童装、内衣</a></li>
+                        <li><a href="list.html">美妆、个护清洁、宠物</a></li>
+                        <li><a href="list.html">女鞋、箱包、钟表、珠宝</a></li>
+                        <li><a href="list.html">男鞋、运动、户外</a></li>
+                        <li><a href="list.html">房产、汽车、汽车用品</a></li>
+                        <li><a href="list.html">母婴、玩具乐器</a></li>
+                        <li><a href="list.html">食品、酒类、生鲜、特产</a></li>
+                        <li><a href="list.html">医药保健</a></li>
+                        <li><a href="list.html">图片、音像、电子书</a></li>
+                        <li><a href="list.html">彩票、旅行、充值、票务</a></li>
+                        <li><a href="list.html">理财、众筹、白条、保险</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 右侧导航 -->
+            <div class="navitems fl">
+                <ul>
+                    <li><a href="#">服装城</a></li>
+                    <li><a href="#">美妆馆</a></li>
+                    <li><a href="#">传智超市</a></li>
+                    <li><a href="#">全球购</a></li>
+                    <li><a href="#">闪购</a></li>
+                    <li><a href="#">团购</a></li>
+                    <li><a href="#">拍卖</a></li>
+                    <li><a href="#">有趣</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- nav模块 end -->
+
+    <!-- 详情页内容部分	 -->
+    <div class="de_container w">
+        <!-- 面包屑导航 -->
+        <div class="crumb_wrap">
+            <a href="#">手机、数码、通讯</a> 〉 <a href="#">手机 </a> 〉 <a href="#">Apple苹果 </a> 〉 <a href="#">iphone 13 Plus系类</a>
+        </div>
+        <!-- 产品介绍模块 -->
+        <div class="product_intro clearfix">
+            <!-- 预览区域 -->
+            <div class="preview_wrap fl">
+                <div class="preview_img">
+                    <img src="upload/iphone13.png" alt="" class="littleImg">
+                    <div class="mask"></div>
+                    <div class="big">
+                        <img src="upload/iphone13.png" alt="" class="bigImg">
+                    </div>
+                </div>
+                <!-- 缩略图部分 -->
+                <div class="preview_list">
+                    <a href="#" class="arrow_prev"></a>
+                    <a href="#" class="arrow_next"></a>
+                    <ul class="list_item">
+                        <li>
+                            <img src="upload/iphone01.png" alt="">
+                        </li>
+                        <li class="current">
+                            <img src="upload/iphone13.png" alt="">
+                        </li>
+                        <li>
+                            <img src="upload/iphone04.png" alt="">
+                        </li>
+                        <li>
+                            <img src="upload/iphone05.png" alt="">
+                        </li>
+                        <li>
+                            <img src="upload/iphone03.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 产品详细信息 -->
+            <div class="itemInfo_wrap fr">
+                <div class="sku_name">
+                    iPhone 13 Pro 6.1 英寸超视网膜 移动通信电信5G手机
+                </div>
+                <div class="news">
+                    推荐选择下方[移动优惠购],手机套餐齐搞定,不用换号,每月还有花费返
+                </div>
+                <div class="summary">
+                    <dl class="summary_price">
+                        <dt>价格</dt>
+                        <dd>
+                            <i class="price">￥7999.00 </i>
+
+                            <a href="#">降价通知</a>
+
+                            <div class="remark">累计评价666666</div>
+
+                        </dd>
+                    </dl>
+                    <dl class="summary_promotion">
+                        <dt>促销</dt>
+                        <dd>
+                            <em>加购价</em> 满999.00另加20.00元，或满1999.00另加30.00元，或满2999.00另加40.00元，即可在购物车换 购热销商品 详情 》
+
+                        </dd>
+                    </dl>
+                    <dl class="summary_support">
+                        <dt>支持</dt>
+                        <dd>以旧换新，闲置手机回收 5G套餐超值抢 礼品购</dd>
+                    </dl>
+                    <dl class="choose_color">
+                        <dt>选择颜色</dt>
+                        <dd>
+                            <a href="javascript:;" class="current">星光色</a>
+                            <a href="javascript:;">午夜黑</a>
+                            <a href="javascript:;">粉色</a>
+                            <a href="javascript:;">红色</a>
+                        </dd>
+                    </dl>
+                    <dl class="choose_version">
+                        <dt>选择版本</dt>
+                        <dd>
+                            <a href="javascript:;" class="current">公开版</a>
+                            <a href="javascript:;">移动5G</a>
+                        </dd>
+                    </dl>
+                    <dl class="choose_type">
+                        <dt>购买方式</dt>
+                        <dd>
+                            <a href="javascript:;" class="current">官方标配</a>
+                            <a href="javascript:;">移动优惠购</a>
+                            <a href="javascript:;">电信优惠购</a>
+                        </dd>
+                    </dl>
+                    <div class="choose_btns">
+                        <div class="choose_amount">
+                            <input type="text" value="1">
+                            <a href="javascript:;" class="add">+</a>
+                            <a href="javascript:;" class="reduce">-</a>
+                        </div>
+                        <a href="shoppingcart.html" class="addcar">加入购物车</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 产品细节模块 product_detail	 -->
+        <div class="product_detail clearfix">
+            <!-- aside -->
+            <div class="aside fl">
+                <div class="tab_list">
+                    <ul>
+                        <li class="first_tab ">相关分类</li>
+                        <li class="second_tab current">推荐品牌</li>
+                    </ul>
+                </div>
+                <div class="tab_con">
+
+                    <ul>
+                        <li>
+                            <img src="upload/aside_img.jpg" alt="">
+                            <h5>Apple iPhone 13 (A2634) 128GB 粉色</h5>
+                            <div class="aside_price">¥5999</div>
+                            <a href="#" class="as_addcar">加入购物车</a>
+                        </li>
+                        <li>
+                            <img src="upload/aside_img.jpg" alt="">
+                            <h5>Apple iPhone 13 (A2634) 128GB 粉色</h5>
+                            <div class="aside_price">¥5999</div>
+                            <a href="#" class="as_addcar">加入购物车</a>
+                        </li>
+                        <li>
+                            <img src="upload/aside_img.jpg" alt="">
+                            <h5>Apple iPhone 13 (A2634) 128GB 粉色</h5>
+                            <div class="aside_price">¥5999</div>
+                            <a href="#" class="as_addcar">加入购物车</a>
+                        </li>
+                        <li>
+                            <img src="upload/aside_img.jpg" alt="">
+                            <h5>Apple iPhone 13 (A2634) 128GB 粉色</h5>
+                            <div class="aside_price">¥5999</div>
+                            <a href="#" class="as_addcar">加入购物车</a>
+                        </li>
+                        <li>
+                            <img src="upload/aside_img.jpg" alt="">
+                            <h5>Apple iPhone 13 (A2634) 128GB 粉色</h5>
+                            <div class="aside_price">¥5999</div>
+                            <a href="#" class="as_addcar">加入购物车</a>
+                        </li>
+                        <li>
+                            <img src="upload/aside_img.jpg" alt="">
+                            <h5>Apple iPhone 13 (A2634) 128GB 粉色</h5>
+                            <div class="aside_price">¥5999</div>
+                            <a href="#" class="as_addcar">加入购物车</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+            <!-- detail -->
+            <div class="detail fr">
+                <div class="detail_tab_list">
+                    <ul>
+                        <li class="current">商品介绍</li>
+                        <li>规格与包装</li>
+                        <li>售后保障</li>
+                        <li>商品评价（666666）</li>
+                        <li>手机社区</li>
+                    </ul>
+                </div>
+                <div class="detail_tab_con">
+                    <div class="item">
+                        <ul class="item_info">
+                            <li>分辨率：1920*1080(FHD)</li>
+                            <li>后置摄像头：1200万像素</li>
+                            <li>前置摄像头：500万像素</li>
+                            <li>核 数：其他</li>
+                            <li>频 率：以官网信息为准</li>
+                            <li>品牌： Apple ♥关注</li>
+                            <li>商品名称：APPLEiPhone 6s Plus</li>
+                            <li>商品编号：1861098</li>
+                            <li>商品毛重：0.51kg</li>
+                            <li>商品产地：中国大陆</li>
+                            <li>热点：指纹识别，Apple Pay，金属机身，拍照神器</li>
+                            <li>系统：苹果（IOS）</li>
+                            <li>像素：1000-1600万</li>
+                            <li>机身内存：64GB</li>
+                        </ul>
+                        <img src="upload/detail1.jpg" alt="">
+
+                    </div>
+
+                    <!-- <div class="item">规格与包装</div>
+					<div class="item">售后保障</div> 
+					 -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 详情页内容部分	 -->
+
+    <!-- 底部模块制作 start -->
+    <footer class="footer">
+        <div class="w">
+            <div class="mod_service">
+                <ul>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+                            <h4>正品保障</h4>
+                            <p>正品保障，提供发票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+                            <h4>正品保障</h4>
+                            <p>正品保障，提供发票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+                            <h4>正品保障</h4>
+                            <p>正品保障，提供发票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+                            <h4>正品保障</h4>
+                            <p>正品保障，提供发票</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="mod_help">
+                <dl class="fl">
+                    <dt>服务指南</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#">生活旅行</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">家用电器</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>配送方式</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#">生活旅行</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">家用电器</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>服务指南</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#">生活旅行</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">家用电器</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>服务指南</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#">生活旅行</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">家用电器</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>服务指南</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#">生活旅行</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">家用电器</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>帮助中心</dt>
+                    <dd>
+                        <img src="images/wx_cz.jpg" alt="二维码">
+                        客户端下载
+                    </dd>
+                </dl>
+            </div>
+            <div class="mod_copyright">
+                <div class="links">
+                    <a href="#">关于我们</a>|
+                    <a href="#">联系我们</a>|
+                    <a href="#">联系客服</a>|
+                    <a href="#">商家入驻</a>|
+                    <a href="#">营销中心</a>|
+                    <a href="#">手机优购</a>|
+                    <a href="#">友情链接</a>|
+                    <a href="#">购物社区</a>|
+                    <a href="#">公益热线</a>|
+                    <a href="#">English Site</a>|
+                    <a href="#">Contact U</a>|
+                </div>
+                <div class="copyright">
+                    地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br>
+                    京ICP备08001421号京公网安备110108007702
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- 底部模块制作 end -->
+</body>
+
+</html>

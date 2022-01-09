@@ -1,0 +1,222 @@
+.cart h4 {
+    display: block;
+    width: 75px;
+    font-size: 18px;
+    color: #c81523;
+    border-bottom: 2px solid #c81523;
+}
+
+.cart ul {
+    position: relative;
+    background-color: #f1f3f0;
+    height: 50px;
+}
+.cart .checkall {
+    position: absolute;
+    top: 18px;
+    left: -15px;
+}
+.cart ul li {
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.cart-items {
+    position: relative;
+    height: 900px;
+}
+
+.cart ul .t-checkbox {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.cart ul .t-goods {
+    position: absolute;
+    top: 0;
+    left: 145px;
+}
+
+.cart ul .t-price {
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
+
+.cart ul .t-num {
+    position: absolute;
+    top: 0;
+    left: 750px;
+}
+
+.cart ul .t-sum {
+    position: absolute;
+    top: 0;
+    left: 900px;
+}
+
+.cart ul .t-action {
+    position: absolute;
+    top: 0;
+    right: 120px;
+}
+
+/* .cart-item-list {
+    height: 1000px;
+} */
+.cart-item:hover{
+    background-color:#fef4e8 ;
+}
+.cart-item {
+    margin-top: 20px;
+    position: relative;
+    border-top: 2px solid #918888;
+    height: 170px;;
+
+}
+.p-checkbox {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+
+.cart-item .p-goods {
+    width: 300px;
+    background-color: aquamarine;
+    
+}
+
+.p-img {
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+}
+
+.p-img img {
+    width: 100%;
+}
+.p-msg {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    width: 250px;
+}
+.p-price {
+    position: absolute;
+    top: 30px;
+    left: 580px;
+    
+}
+.p-num {
+    position: absolute;
+    top: 30px;
+    left: 730px;
+    
+}
+.p-num .itxt {
+    float: left;
+    width: 45px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.p-num .decrement {
+    float: left;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 17px;
+    border: 1px solid #ccc;
+
+}
+.p-num .increment {
+    float: left;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 17px;
+    border: 1px solid #ccc;
+
+}
+
+.p-sum {
+    position: absolute;
+    top: 30px;
+    left: 880px;
+}
+.p-remove {
+    position: absolute;
+    top: 30px;
+    right: 120px;
+}
+
+.cart .settlement ul {
+    position: relative;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    height: 50px;
+    
+    
+}
+.cart .settlement ul li {
+    line-height: 50px;
+}
+
+.cart .settlement ul .j-buttom {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+.cart .settlement ul .j-remove {
+    position: absolute;
+    top: 0;
+    left: 90px;
+}
+.cart .settlement ul .j-num {
+    position: absolute;
+    top: 0;
+    right: 250px;
+}
+.cart .settlement ul .j-sum {
+    position: absolute;
+    top: 0;
+    right: 215px;
+}
+.cart .settlement ul .j-num em {
+    color:#c81523 ;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.cart .settlement ul .j-money {
+    position: absolute;
+    top: 0;
+    right: 120px;
+    color: #c81523;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.cart .settlement ul .j-settle {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background-color: #c81523;
+    
+}
+.cart .settlement ul .j-settle a {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+}
